@@ -38,6 +38,17 @@
             {
                 Console.WriteLine($"isNotWorking is set to {isNotWorking}.");
             }
+
+            //Character examples with Write vs WriteLine
+            char abc = 'H';
+            char def = 'a';
+
+            Console.Write(abc);
+            Console.WriteLine(def);
+
+            Console.WriteLine(abc);
+            Console.WriteLine(def);
+
         }
     }
 }

@@ -23,7 +23,21 @@
             string lastName = Console.ReadLine();
             Console.WriteLine($"You name is {firstName} {lastName}.");
 
+            bool isWorking = true;
+            bool isNotWorking = false;
 
+            if (isWorking)
+            {
+                Console.WriteLine($"isWorking is set to {isWorking}.");
+            }
+            if (isNotWorking)
+            {
+                Console.WriteLine($"isNotWorking is not set to {isNotWorking}.");
+            }
+            else
+            {
+                Console.WriteLine($"isNotWorking is set to {isNotWorking}.");
+            }
         }
     }
 }

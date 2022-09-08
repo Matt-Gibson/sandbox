@@ -49,6 +49,11 @@
             Console.WriteLine(abc);
             Console.WriteLine(def);
 
+            //Using a Custom Class
+
+            Printer.Print(firstName);
+            Printer.DoubleTap(firstName);
+
         }
     }
 }

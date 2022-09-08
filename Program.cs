@@ -23,6 +23,7 @@
             string lastName = Console.ReadLine();
             Console.WriteLine($"You name is {firstName} {lastName}.");
 
+            //Bool Values
             bool isWorking = true;
             bool isNotWorking = false;
 

@@ -54,6 +54,14 @@
             Printer.Print(firstName);
             Printer.DoubleTap(firstName);
 
+            //For Loop with printing increment variable
+
+            for (int i = 0; i <= 9; i++)
+            {
+                Console.WriteLine("LOOPing {0}", i);
+            }
+
+
         }
     }
 }

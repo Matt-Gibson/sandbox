@@ -10,6 +10,6 @@ public class Printer
 	public static void DoubleTap(string y)
 	{
 		Console.Write(y);
-		Console.Write(y);
+		Console.WriteLine(y);
 	}
 }

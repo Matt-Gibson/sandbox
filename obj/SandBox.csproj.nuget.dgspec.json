@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT\\Desktop\\Matt\\code\\SandBox\\SandBox.csproj": {}
+    "C:\\Users\\Gibso\\Documents\\Code\\sandbox\\SandBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT\\Desktop\\Matt\\code\\SandBox\\SandBox.csproj": {
+    "C:\\Users\\Gibso\\Documents\\Code\\sandbox\\SandBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT\\Desktop\\Matt\\code\\SandBox\\SandBox.csproj",
+        "projectUniqueName": "C:\\Users\\Gibso\\Documents\\Code\\sandbox\\SandBox.csproj",
         "projectName": "SandBox",
-        "projectPath": "C:\\Users\\IT\\Desktop\\Matt\\code\\SandBox\\SandBox.csproj",
-        "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT\\Desktop\\Matt\\code\\SandBox\\obj\\",
+        "projectPath": "C:\\Users\\Gibso\\Documents\\Code\\sandbox\\SandBox.csproj",
+        "packagesPath": "C:\\Users\\Gibso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gibso\\Documents\\Code\\sandbox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gibso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

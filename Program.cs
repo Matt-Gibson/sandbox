@@ -39,6 +39,30 @@
             {
                 Console.WriteLine($"isNotWorking is set to {isNotWorking}.");
             }
+
+            //Character examples with Write vs WriteLine
+            char abc = 'H';
+            char def = 'a';
+
+            Console.Write(abc);
+            Console.WriteLine(def);
+
+            Console.WriteLine(abc);
+            Console.WriteLine(def);
+
+            //Using a Custom Class
+
+            Printer.Print(firstName);
+            Printer.DoubleTap(firstName);
+
+            //For Loop with printing increment variable
+
+            for (int i = 0; i <= 9; i++)
+            {
+                Console.WriteLine("LOOPing {0}", i);
+            }
+
+
         }
     }
 }

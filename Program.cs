@@ -8,20 +8,15 @@
 
             //Retuning an entered whole number with TryParse for protecting against improper input
             Console.Write("Enter a Whole Number: ");
-            if (int.TryParse(Console.ReadLine(), out int number)) { }
-
-            else
-                Console.WriteLine("Input Type Not Accepted");
-             
+            if (int.TryParse(Console.ReadLine(), out var number)) { }
+            else Console.WriteLine("Input Type Not Accepted");
             Console.WriteLine($"You entered: {number}");
 
 
-
-
-
-            //Returning an entered decimal with Parsing
+            //Returning an entered decimal with TryParse for protecting against improper input
             Console.Write("Enter a decimal number: ");
-            decimal a = decimal.Parse(Console.ReadLine());
+            if (decimal.TryParse(Console.ReadLine(), out var a)) {}
+            else Console.WriteLine("Input Type Not Accepted");
             Console.WriteLine($"You entered {a}");
 
             //Concatenating Strings

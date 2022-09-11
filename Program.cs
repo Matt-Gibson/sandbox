@@ -25,6 +25,21 @@
             }
             Console.WriteLine($"You entered {a}");
 
+            //Switch Statement to evaluate multiple cases
+            switch (a)
+            {
+                case <10:
+                    Console.WriteLine("Under 10");
+                    break;
+                case >10:
+                    Console.WriteLine("Over 10");
+                    break;
+                default:
+                    Console.WriteLine("Right on 10");
+                    break;
+            }
+
+
             //Concatenating Strings
             Console.Write("Enter your first name: ");
             var firstName = Console.ReadLine();

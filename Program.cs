@@ -18,8 +18,11 @@
 
             //Returning an entered decimal with TryParse for protecting against improper input
             Console.Write("Enter a decimal number: ");
-            if (decimal.TryParse(Console.ReadLine(), out var a)) {}
-            else Console.WriteLine("Input Type Not Accepted");
+            if (!decimal.TryParse(Console.ReadLine(), out var a))
+            {
+                Console.WriteLine("Input Type Not Accepted");
+                Environment.Exit(0);
+            }
             Console.WriteLine($"You entered {a}");
 
             //Concatenating Strings

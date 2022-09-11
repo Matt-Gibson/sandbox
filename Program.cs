@@ -85,16 +85,21 @@
             Console.WriteLine(def);
 
             //Using a Custom Class
-
             Printer.Print(firstName);
             Printer.DoubleTap(firstName);
 
             //For Loop with printing increment variable
-
             for (int i = 0; i <= 9; i++)
             {
                 Console.WriteLine("LOOPing {0}", i);
             }
+            
+            //Array
+            string[] names = new string[2];
+            names[0] = "tom";
+            names[1] = "tina";
+            Console.WriteLine($"This is {names[0]} and {names[1]}");
+
 
 
         }

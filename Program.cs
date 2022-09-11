@@ -8,8 +8,11 @@
 
             //Retuning an entered whole number with TryParse for protecting against improper input
             Console.Write("Enter a Whole Number: ");
-            if (int.TryParse(Console.ReadLine(), out var number)) { }
-            else Console.WriteLine("Input Type Not Accepted");
+            if (!int.TryParse(Console.ReadLine(), out var number))
+            {
+                Console.WriteLine("Input Type Not Accepted");
+                Environment.Exit(0);
+            }
             Console.WriteLine($"You entered: {number}");
 
 
@@ -27,8 +30,8 @@
             Console.WriteLine($"You name is {firstName} {lastName}.");
 
             //Bool Values
-            bool isWorking = true;
-            bool isNotWorking = false;
+            var isWorking = true;
+            var isNotWorking = false;
 
             if (isWorking)
             {

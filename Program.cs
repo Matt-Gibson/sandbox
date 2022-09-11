@@ -15,6 +15,16 @@
             }
             Console.WriteLine($"You entered: {number}");
 
+            //Using already Parsed and checked int value to set properties of Structure class object
+            Console.WriteLine("Creating New Class Object of Structure...");
+            Structure barn = new Structure();
+            barn.SetLength(number);
+            barn.SetWidth(number);
+            barn.SetHeight(number);
+            Console.WriteLine($"Barn height is {barn.GetHeight()}");
+            Console.WriteLine($"Barn width is {barn.GetWidth()}");
+            Console.WriteLine($"Barn length is {barn.GetLength()}");
+            
 
             //Returning an entered decimal with TryParse for protecting against improper input
             Console.Write("Enter a decimal number: ");

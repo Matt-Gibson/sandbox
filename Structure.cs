@@ -7,20 +7,35 @@ public class Structure
 	private static int _height;
 	private static int _length;
 
-	//Methods to set properties
-	public static void SetWidth(int Width)
+	//Methods to set properties; Need to refactor into one
+	public void SetWidth(int width)
 	{
-		_width = Width;
+		_width = width;
 	}
 
-	public static void SetHeight(int Height)
+	public void SetHeight(int height)
 	{
-		_height = Height;
+		_height = height;
 	}
 
-	public static void SetLength(int Length)
+	public void SetLength(int length)
 	{
-		_length = Length;
+		_length = length;
 	}
 
+	//Methods to get properties; Need to refactor into one
+	public int GetLength()
+	{
+		return _length;
+	}
+	
+	public int GetWidth()
+	{
+		return _width;
+	}
+	
+	public int GetHeight()
+	{
+		return _height;
+	}
 }

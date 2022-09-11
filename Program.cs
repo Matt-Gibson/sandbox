@@ -94,13 +94,12 @@
                 Console.WriteLine("LOOPing {0}", i);
             }
             
-            //Array
+            //Array Experiment
             string[] names = new string[2];
             names[0] = "tom";
             names[1] = "tina";
             Console.WriteLine($"This is {names[0]} and {names[1]}");
-
-
+            Console.WriteLine(names.GetType());
 
         }
     }

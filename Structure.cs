@@ -7,6 +7,10 @@ public class Structure
 	private static int _height;
 	private static int _length;
 
+	//Easier property syntax
+	public int Quality { get; set; }
+	
+
 	//Methods to set properties; Need to refactor into one
 	public void SetWidth(int width)
 	{
